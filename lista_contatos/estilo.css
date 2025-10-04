@@ -1,0 +1,96 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+    
+}
+
+.titulo {
+    text-align: center;
+}
+
+    /*--Container principal do site --*/
+
+.container_conteudo {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    max-height: 400px;
+    width: 70%;
+    margin: auto;
+    overflow-y: scroll;
+    background-color: rgb(216, 185, 143, 0.4); 
+    border-bottom: 1px solid black;
+    box-sizing: border-box;
+    
+}
+
+/*-- Container do conteudo --*/
+
+.container_secundario {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+}
+
+.container_secundario:hover {
+    background-color: rgba(59, 59, 58, 0.1);
+    cursor: pointer;
+}
+
+.container_secundario:hover .icon {
+    visibility: visible;
+    opacity: 1;
+}
+
+.container_secundario img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+
+/*-- Conteudo --*/
+
+.conteudo {
+    flex: 1;
+    margin-left: 12px;
+
+}
+
+.conteudo h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    
+}
+
+.conteudo p {
+    margin-top: 2px;
+    opacity: 0.2;
+    
+}
+
+/*-- Icone --*/
+
+.icon {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    gap: 1px;
+    
+
+}
+
+
+.icon img {
+    width: auto;
+    height: 16px;
+    opacity: 0.6;
+    margin-left: 2px;
+}
+
+
