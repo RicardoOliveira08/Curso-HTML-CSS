@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+    background-color: var(--bg-fundo);
+    color:var(--text);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+:root {
+
+    --bg-menu: #374151;
+    --bg-hover-menu: #111827;
+    --bg-fundo: #faf3e0;
+    --bg-hover: #c2410c;
+    --text: #3B2F2F;
+    --primary: #F97316;
+    --secundary: #FFFF;
+    --details: #f472b6;
+}
+
+.cabecalho {
+    padding-bottom: 1px;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--bg-menu);
+    padding: 5px;
+    align-items: center;
+}
+
+.imagem_menu {
+    height: 4rem;
+    padding-left: 1em
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    ;
+}
+
+.menu li {
+    list-style-type: none;
+    border: 2px solid var(--details);
+    padding: 1em;
+    font-size: 1.6em;
+    margin-right: 1em;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: var(--bg-hover-menu);  
+    padding: .5em;  
+}
+
+.menu a:hover{
+    color:rgb(206, 132, 79);
+    cursor:pointer;
+  
+}
+
+.titulo_principal {
+    text-align: center;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    color: var(--text);
+}
+
+.container_principal {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    gap: 30px;  
+    flex-wrap: wrap; 
+    padding-bottom: 5em;
+}
+
+.conteudo_perfil {
+    background-color: var(--secundary);
+    padding: .5em .5rem;
+    border-radius: 1.5em;
+    min-height: 30rem;
+    min-width: 30rem;
+    padding-left: 2.3rem;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow:  3px 5px 4px var(--details);
+
+}
+
+.conteudo_perfil:hover {
+    background-color: #d48a8a;
+    box-shadow: 2px 4px 6px orange;
+}
+
+
+.imagem_perfil {
+    width: 130px;
+    padding-top: 4em;
+}
+
+.conteudo {
+    padding-top: 1em;
+}
+
+.rodape {
+    background-color: #111827;
+    padding: 3em;
+    color: white;
+    font-size: 1.8em;
+    text-align: center;
+}
