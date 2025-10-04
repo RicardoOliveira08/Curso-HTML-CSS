@@ -1,0 +1,130 @@
+body {
+    font-family:"Open Sans", sans-serif;
+    font-weight: 400;
+    width: 80%;
+    margin: auto;
+    font-size: 62.5%;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(86, 97, 86);
+    align-items: center;
+}
+
+.titulo {
+    font-size: 3em;
+    padding-left: 4em;
+    color: white;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    gap : 1em;
+    padding-right: 3em;
+    font-size: 1.8em;
+}
+
+.menu li {
+    background-color: darkolivegreen;
+    padding: 0.8em 1.2em;
+    color: white;
+    font-weight: bold;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu li:hover {
+    background-color: rgb(126, 119, 109);
+    color: black;
+}
+
+
+.img_topo {
+    width: 100%;
+}
+
+.container_conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.frase_principal {
+    text-align: center;
+    font-size: 2em;
+    padding-top: 2em;
+    color: rgb(113, 124, 95);
+}
+
+.conteudo {
+  display: flex;
+  font-size: 1.5rem;
+  width: 90ch;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 1em 2em;
+  color: rgb(94, 102, 74);
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 4em;
+    margin-top: 2em;
+}
+
+.conteudo_cards {
+    text-align: center;
+}
+
+
+.conteudo_cards h3 {
+    text-transform: uppercase;
+    color:rgb(87, 112, 87);
+    letter-spacing: 0.2em;
+    font-size: 1.8em;
+}
+
+.conteudo_cards p {
+    font-size: 1.6em;
+}
+
+.container_letreiro {
+    background-image: url(/Projeto_moda_ora/imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 60em;
+    width: 100%;
+    padding-top: 20em;
+}
+
+.container_letreiro h3 {
+    font-size: 5em;
+    width: 40ch;
+    padding-left: 2em;
+    color: white;
+}
+
+.container_letreiro p {
+    font-size: 1.6em;
+    color: white;
+    padding-left: 6.5em;
+    line-height: 2;
+    width: 70ch;
+}
+
+.rodape {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 1.6em;
+    padding: 1em;
+}
