@@ -5,8 +5,7 @@ body {
     background-repeat: no-repeat;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 62.5%;
-    width: 80%;
-    margin: auto;
+    margin: 0;
     color: white;
 }
 
@@ -15,19 +14,19 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 5rem;
+    padding-top: 50px;
 }
 
 .cabecalho h1 {
-    font-size: 3.5rem;
+    font-size: 5opx;
     text-transform: uppercase;
-    letter-spacing: 0.2rem;
+    letter-spacing: 2px;
     text-shadow: 2px 1px 3px black;
 
 }
 
 .cabecalho p {
-    font-size: 1.6em;
+    font-size: 16px;
     background-color: black;
     padding: 10px 15px;
     border-bottom: 1px solid;
@@ -41,20 +40,21 @@ body {
     gap: 5px;
     width: 80%;
     max-width: 1000px; 
-    margin: 2rem auto;         
+    margin: 25px auto;         
     background-color: white;
 }
 
 .conteudo_principal {
     background-color: black;
-    margin: 1.5em 1em;
+    margin: 15px 10px;
     
 }
 
 .conteudo {
-    margin-left: 1em;
-    font-size: 1.5em;
+    margin-left: 10px;
+    font-size: 15px;
     padding: 1px;
 }
+
 
 
